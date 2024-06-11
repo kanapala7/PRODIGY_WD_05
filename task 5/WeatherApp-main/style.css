@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body{
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%, rgb(27, 88, 111) 58.6%, rgb(115, 88, 44) 75%, rgb(99, 19, 90) 89.6%, rgb(12, 51, 76) 96.1%);
+}
+
+.container{
+
+      width: 400px;
+      height: min-content;
+      background: linear-gradient(122.3deg, rgb(111, 71, 133) 14.6%, rgb(232, 129, 166) 29.6%, rgb(237, 237, 183) 42.1%, rgb(244, 166, 215) 56.7%, rgb(154, 219, 232) 68.7%, rgb(238, 226, 159) 84.8%);
+      border-radius: 12px;
+      padding: 28px;
+}
+.search-box{
+
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-box input{
+
+      width: 84%;
+      font-size: 20px;
+      text-transform: capitalize;
+      color: black;
+      background-color: rgb(255, 255, 255);
+      padding: 12px 16px;
+      border-radius: 14px;
+}
+
+  .search-box  button:active{
+
+      color: blue;
+}
+
+.search-box input::placeholder{
+   color: black;
+}
+.search-box button{
+
+   width: 46px;
+   height: 46px;
+   background-color: white;
+   border-radius: 50px;
+   cursor: pointer;
+   font-size: 20px;
+}
+
+.search-box button:hover{
+
+   background-color: rgb(180, 154, 154);
+}
+
+.weather-body{
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin-block:20px;
+}
+
+.weather-box{
+
+    margin-block:20px;
+    text-align: center;
+}
+
+.weather-body img{
+    
+ width: 60%;
+
+}
+
+.weather-box .tempatature{
+
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+        
+}
+.weather-box .tempatature sup{
+
+    font-size: 15px;
+    position: absolute;
+    font-weight: 500;
+}
+.weather-box .description{
+
+   font-size: 20px;
+   font-weight: 700;
+   text-transform: capitalize;
+}
+
+.weather-details{
+       
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       margin-top: 30px;
+}
+
+.humidity, .wind{
+
+    display: flex;
+    align-items: center;
+}
+
+.humidity{
+       margin-left: 20px;
+}
+.wind{
+     margin-right: 20px;
+}
+
+.weather-details i{
+      
+   font-size: 36px;
+}
+
+.weather-details .text{
+
+    margin-left: 10px;
+    font-size: 16px;
+}
+.text span{
+
+    font-size: 20px;
+    font-weight: 700;
+}
